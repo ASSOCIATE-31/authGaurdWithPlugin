@@ -24,6 +24,7 @@ Route::get('/home1', [App\Http\Controllers\HomeController::class, 'index'])->nam
 Route::get('/home2', [App\Http\Controllers\HomeController::class, 'index'])->name('home2');
 Route::get('/home5', [App\Http\Controllers\HomeController::class, 'index'])->name('home5');
 Route::get('/home6', [App\Http\Controllers\HomeController::class, 'index'])->name('home6');
+Route::get('/home7', [App\Http\Controllers\HomeController::class, 'index'])->name('home7');
 /*
 |--------------------------------------------------------------------------
 | User Routes
