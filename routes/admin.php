@@ -20,6 +20,8 @@ use App\Http\Controllers\User\AuthController;
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home5', [App\Http\Controllers\HomeController::class, 'index'])->name('home5');
+Route::get('/home6', [App\Http\Controllers\HomeController::class, 'index'])->name('home6');
 /*
 |--------------------------------------------------------------------------
 | User Routes
